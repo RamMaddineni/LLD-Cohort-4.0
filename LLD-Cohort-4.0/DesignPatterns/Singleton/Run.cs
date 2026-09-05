@@ -4,7 +4,17 @@
     {
         public static void Start()
         {
-            var singleton= new SingletonDesignPattern();
+            var s1= SingletonDesignPattern.GetInstance();
+            var s2 = SingletonDesignPattern.GetInstance();
+            if (s1 == s2)
+            {
+                Console.WriteLine("SingleTon Works!");
+            }
+            else
+            {
+                Console.WriteLine("Singleton Failed!");
+            }
+
         }
     }
 }

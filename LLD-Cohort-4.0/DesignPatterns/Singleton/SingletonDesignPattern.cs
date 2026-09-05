@@ -8,8 +8,18 @@ namespace LLD_Cohort_4._0.DesignPatterns.Singleton
 {
     internal class SingletonDesignPattern
     {
+
+        private static SingletonDesignPattern _instance;
         public SingletonDesignPattern() {
             Console.WriteLine("Coming to singleton Design Pattern");
+        }
+        public static SingletonDesignPattern GetInstance()
+        {
+            if (_instance == null)
+            {
+                _instance = new SingletonDesignPattern();
+            }
+            return _instance;
         }
     }
 }
