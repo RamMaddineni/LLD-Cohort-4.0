@@ -1,23 +1,23 @@
-﻿namespace LLD_Cohort_4._0.DesignPatterns.NonThreadSafeSingleton
+﻿namespace LLD_Cohort_4._0.DesignPatterns.SingletonPattern.ThreadSafeSingleton
 {
     internal class Run
     {
         public static void Start()
         {
-            NonThreadSafeSingleton? s1 = null;
-            NonThreadSafeSingleton? s2 = null;
+            ThreadSafeSingleton? s1 = null;
+            ThreadSafeSingleton? s2 = null;
 
             using var StartGate = new ManualResetEventSlim(false);
             var thread1 = new Thread(() =>
             {
                 StartGate.Wait();
-                s1 = NonThreadSafeSingleton.GetInstance();
+                s1 = ThreadSafeSingleton.GetInstance();
             });
 
             var thread2 = new Thread(() =>
             {
                 StartGate.Wait();
-                s2 = NonThreadSafeSingleton.GetInstance();
+                s2 = ThreadSafeSingleton.GetInstance();
             });
 
             thread1.Start();
@@ -28,7 +28,7 @@
             thread2.Join();
             if (s1 == s2)
             {
-                Console.WriteLine("Multi Thread singleton works without issues");
+                Console.WriteLine("Thread Safe Mode : Multi Thread singleton works without issues");
             }
             else
             {

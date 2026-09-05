@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LLD_Cohort_4._0.DesignPatterns.Singleton
+namespace LLD_Cohort_4._0.DesignPatterns.SingletonPattern.Singleton
 {
     internal class SingletonDesignPattern
     {
 
         private static SingletonDesignPattern _instance;
-        public SingletonDesignPattern() {
+        public SingletonDesignPattern()
+        {
             Console.WriteLine("Coming to singleton Design Pattern");
         }
         public static SingletonDesignPattern GetInstance()

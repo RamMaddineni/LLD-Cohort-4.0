@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LLD_Cohort_4._0.DesignPatterns.NonThreadSafeSingleton
+namespace LLD_Cohort_4._0.DesignPatterns.SingletonPattern.NonThreadSafeSingleton
 {
     internal class NonThreadSafeSingleton
     {
 
         private static NonThreadSafeSingleton _instance;
-        public NonThreadSafeSingleton() {
+        public NonThreadSafeSingleton()
+        {
             Console.WriteLine("Coming to Non thread safe-singleton Design Pattern");
         }
         public static NonThreadSafeSingleton GetInstance()
