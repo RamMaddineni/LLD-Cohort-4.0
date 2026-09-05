@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using LLD_Cohort_4._0.DesignPatterns.Singleton;
+Run.Start();
