@@ -11,7 +11,7 @@ namespace LLD_Cohort_4._0.DesignPatterns.NonThreadSafeSingleton
 
         private static NonThreadSafeSingleton _instance;
         public NonThreadSafeSingleton() {
-            Console.WriteLine("Coming to singleton Design Pattern");
+            Console.WriteLine("Coming to Non thread safe-singleton Design Pattern");
         }
         public static NonThreadSafeSingleton GetInstance()
         {
