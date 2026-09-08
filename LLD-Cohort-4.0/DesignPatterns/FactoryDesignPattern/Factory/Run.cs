@@ -23,6 +23,15 @@ namespace LLD_Cohort_4._0.DesignPatterns.FactoryDesignPattern.Factory
 
             Console.WriteLine("---Factory Ends---");
 
+
+            // Interfaces : Notification ,NotificationFactory
+
+            // Concrete classes : SMSNotification, EmailNotification, SMSNotificationFactory,EamilNotificationFactory
+            
+          // group 1 : Notification, SMSNotification,EmailNotification.
+          // group 2 factories : NotificationFactory,EmailNotificationFactory,SMSNotificationFactory.
+
+
         }
     }
 }
