@@ -22,3 +22,7 @@ LLD_Cohort_4._0.DesignPatterns.FactoryDesignPattern.SimpleFactory.Run.Start();
 
 // Object creation using factory method.
 LLD_Cohort_4._0.DesignPatterns.FactoryDesignPattern.Factory.Run.Start();
+
+
+// Assignment on Singleton, Builder, Factory Design Patterns
+LLD_Cohort_4._0.DesignPatterns.Assignment1.Client.Start();
