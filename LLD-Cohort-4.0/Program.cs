@@ -8,3 +8,8 @@ LLD_Cohort_4._0.DesignPatterns.SingletonPattern.NonThreadSafeSingleton.Run.Start
 // Multi thread safe singleton
 //locks the shared resource, until _instance is not created. (locking will be for some intial time, which helps us to not unncessarily lock things)
 LLD_Cohort_4._0.DesignPatterns.SingletonPattern.ThreadSafeSingleton.Run.Start();
+
+
+
+// Builder pattern.
+LLD_Cohort_4._0.DesignPatterns.BuilderDesignPattern.Student.Run.Start();
