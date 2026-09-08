@@ -18,7 +18,7 @@ namespace LLD_Cohort_4._0.DesignPatterns.BuilderDesignPattern.Student
             Console.WriteLine("Address : " + student.address);
             Console.WriteLine("--End of Builder Design Pattern---");
 
-            Console.WriteLine("--No need for Builder pattern--");
+/*            Console.WriteLine("--No need for Builder pattern--");
             Student student2 = new Student("Ram");
             student2.setAge(24);
             student2.setAddress("India");
@@ -26,7 +26,7 @@ namespace LLD_Cohort_4._0.DesignPatterns.BuilderDesignPattern.Student
             Console.WriteLine("Name : " + student2.name);
             Console.WriteLine("Age : " + student2.age);
             Console.WriteLine("Address : " + student2.address);
-            Console.WriteLine("--end--");
+            Console.WriteLine("--end--");*/
 
             //Notes :
             //first object created using builder pattern is immutuable later.

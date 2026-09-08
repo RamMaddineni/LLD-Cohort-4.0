@@ -14,7 +14,7 @@ namespace LLD_Cohort_4._0.DesignPatterns.BuilderDesignPattern.Student
         public int age { get; private set; }
         public string address { get; private set; }
 
-        public Student(string name)
+/*        public Student(string name)
         {
             this.name = name;
         }
@@ -26,7 +26,7 @@ namespace LLD_Cohort_4._0.DesignPatterns.BuilderDesignPattern.Student
         public void setAddress(string address)
         {
             this.address = address;
-        }
+        }*/
 
         private Student(StudentBuilder obj) {
             this.name = obj.Name;
