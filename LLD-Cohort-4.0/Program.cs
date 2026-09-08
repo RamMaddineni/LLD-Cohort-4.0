@@ -13,3 +13,12 @@ LLD_Cohort_4._0.DesignPatterns.SingletonPattern.ThreadSafeSingleton.Run.Start();
 
 // Builder pattern.
 LLD_Cohort_4._0.DesignPatterns.BuilderDesignPattern.Student.Run.Start();
+
+// Object creation using if/else (without factory pattern)
+LLD_Cohort_4._0.DesignPatterns.FactoryDesignPattern.WithoutFactory.Run.Start();
+
+// Object creation using simple factory.
+LLD_Cohort_4._0.DesignPatterns.FactoryDesignPattern.SimpleFactory.Run.Start();
+
+// Object creation using factory method.
+LLD_Cohort_4._0.DesignPatterns.FactoryDesignPattern.Factory.Run.Start();
