@@ -11,6 +11,8 @@ namespace LLD_Cohort_4._0.DesignPatterns.FactoryDesignPattern.Factory
         public static void Start()
         {
             Console.WriteLine("---Factory Start---");
+
+            // What does factory do? Produces objects.
            
             NotificationFactory smsNotificationFactory = new SMSNotificationFactory();
             Notification sms = smsNotificationFactory.GetNotification();
