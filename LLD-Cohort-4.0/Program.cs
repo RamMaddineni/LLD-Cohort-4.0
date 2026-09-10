@@ -39,3 +39,6 @@ Client.Start();
 
 // Abstract Factory Design Pattern
 LLD_Cohort_4._0.DesignPatterns.CreationalDesignPatterns.FactoryDesignPattern.AbstractFactory.Run.Start();
+
+// Decorator Design Pattern
+LLD_Cohort_4._0.DesignPatterns.StructuralDesignPatterns.DecoratorDesignPattern.Run.Start();
