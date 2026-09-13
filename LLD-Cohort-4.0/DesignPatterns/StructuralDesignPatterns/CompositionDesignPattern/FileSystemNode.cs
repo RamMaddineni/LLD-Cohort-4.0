@@ -9,7 +9,8 @@ namespace LLD_Cohort_4._0.DesignPatterns.StructuralDesignPatterns.CompositionDes
     internal abstract class FileSystemNode
     {
         protected String name;
-        protected String size;
+        protected int size;
+        protected FileSystemNode parent;
         public abstract void Properties();
         public abstract int GetSize();
         public abstract void Rename();

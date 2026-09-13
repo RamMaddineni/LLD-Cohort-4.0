@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LLD_Cohort_4._0.DesignPatterns.StructuralDesignPatterns.CompositionDesignPattern
+namespace LLD_Cohort_4._0.DesignPatterns.StructuralDesignPatterns.AdapterDesignPattern
 {
     internal class Run
     {
-        //Composite Design Pattern : used to enforce recursiveness in object oriented program.
         public static void Start()
         {
 

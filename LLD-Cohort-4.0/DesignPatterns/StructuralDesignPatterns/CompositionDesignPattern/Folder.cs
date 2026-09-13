@@ -21,7 +21,12 @@ namespace LLD_Cohort_4._0.DesignPatterns.StructuralDesignPatterns.CompositionDes
         }
         public override int GetSize()
         {
-            throw new NotImplementedException();
+            int size = 0;
+            foreach(FileSystemNode node in _children)
+            {
+                size += node.GetSize();
+            }
+            return size;
         }
 
         public override void Open()

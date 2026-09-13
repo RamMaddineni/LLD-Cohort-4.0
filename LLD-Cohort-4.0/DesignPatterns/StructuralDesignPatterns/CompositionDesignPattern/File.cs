@@ -10,9 +10,15 @@ namespace LLD_Cohort_4._0.DesignPatterns.StructuralDesignPatterns.CompositionDes
     {
 
         private String _content;
+        public File()
+        {
+            _content = "";
+            size = 0;
+        }
+
         public override int GetSize()
         {
-            throw new NotImplementedException();
+            return _content.Length;
         }
 
         public override void Open()
