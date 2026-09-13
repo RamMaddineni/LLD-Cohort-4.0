@@ -22,7 +22,6 @@ namespace LLD_Cohort_4._0.DesignPatterns.BehaviouralDesignPatterns.StrategyDesig
         }
         public void SendRequest(IRequest request)
         {
-            _strategy = new RoundRobinStrategy();
             _strategy.BalanceLoad(_servers, request);
         }
     }
