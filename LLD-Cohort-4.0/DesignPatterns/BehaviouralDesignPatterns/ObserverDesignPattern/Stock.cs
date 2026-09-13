@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LLD_Cohort_4._0.DesignPatterns.BehaviouralDesignPatterns.ObserverDesignPattern
 {
-    internal class Stock
+    internal class Stock : IObservable
     {
         int price;
         List<IObserver> observers;
