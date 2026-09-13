@@ -45,3 +45,10 @@ LLD_Cohort_4._0.DesignPatterns.StructuralDesignPatterns.DecoratorDesignPattern.R
 
 //Adapter Design Pattern
 LLD_Cohort_4._0.DesignPatterns.StructuralDesignPatterns.AdapterDesignPattern.Run.Start();
+
+
+// Without Facade Design Pattern
+LLD_Cohort_4._0.DesignPatterns.StructuralDesignPatterns.FacadeDesignPattern.BadApproachClient.Start();
+
+//With Facade Design Pattern
+LLD_Cohort_4._0.DesignPatterns.StructuralDesignPatterns.FacadeDesignPattern.Run.Start();
