@@ -15,10 +15,15 @@ namespace LLD_Cohort_4._0.DesignPatterns.BehaviouralDesignPatterns.StateDesignPa
         }
         public void Cancel()
         {
+            Console.WriteLine("Cancelling Money Dispensing!");
+            atm.SetState(atm.GetHasCardState());
         }
 
         public void EjectCard()
         {
+            Cancel();
+            Console.WriteLine("Ejecting Card!");
+            atm.SetState(atm.GetNoCardState());
         }
 
         public void InserCard()

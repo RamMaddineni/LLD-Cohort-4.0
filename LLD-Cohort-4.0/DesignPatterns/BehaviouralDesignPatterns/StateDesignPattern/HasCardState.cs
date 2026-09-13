@@ -29,6 +29,7 @@ namespace LLD_Cohort_4._0.DesignPatterns.BehaviouralDesignPatterns.StateDesignPa
 
         public void PressDispenseMoney()
         {
+            Console.WriteLine("Dispensing Money!");
             atm.SetState(atm.GetMoneyDispenseState());
         }
     }
