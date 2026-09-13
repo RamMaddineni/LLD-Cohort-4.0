@@ -42,3 +42,6 @@ LLD_Cohort_4._0.DesignPatterns.CreationalDesignPatterns.FactoryDesignPattern.Abs
 
 // Decorator Design Pattern
 LLD_Cohort_4._0.DesignPatterns.StructuralDesignPatterns.DecoratorDesignPattern.Run.Start();
+
+//Adapter Design Pattern
+LLD_Cohort_4._0.DesignPatterns.StructuralDesignPatterns.AdapterDesignPattern.Run.Start();
