@@ -58,3 +58,6 @@ LLD_Cohort_4._0.DesignPatterns.StructuralDesignPatterns.ProxyDesignPattern.Run.S
 
 //Strategy Design Pattern
 LLD_Cohort_4._0.DesignPatterns.BehaviouralDesignPatterns.StrategyDesignPattern.Run.Start();
+
+//Observer Design Pattern
+LLD_Cohort_4._0.DesignPatterns.BehaviouralDesignPatterns.ObserverDesignPattern.Run.Start();
