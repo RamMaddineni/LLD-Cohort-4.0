@@ -53,5 +53,8 @@ LLD_Cohort_4._0.DesignPatterns.StructuralDesignPatterns.FacadeDesignPattern.BadA
 //With Facade Design Pattern
 LLD_Cohort_4._0.DesignPatterns.StructuralDesignPatterns.FacadeDesignPattern.Run.Start();
 
-//Proxy Design Patter
+//Proxy Design Pattern
 LLD_Cohort_4._0.DesignPatterns.StructuralDesignPatterns.ProxyDesignPattern.Run.Start();
+
+//Strategy Design Pattern
+LLD_Cohort_4._0.DesignPatterns.BehaviouralDesignPatterns.StrategyDesignPattern.Run.Start();
