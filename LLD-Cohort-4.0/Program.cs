@@ -61,3 +61,6 @@ LLD_Cohort_4._0.DesignPatterns.BehaviouralDesignPatterns.StrategyDesignPattern.R
 
 //Observer Design Pattern
 LLD_Cohort_4._0.DesignPatterns.BehaviouralDesignPatterns.ObserverDesignPattern.Run.Start();
+
+// Assignment 2: Structural Design Patterns
+LLD_Cohort_4._0.DesignPatterns.StructuralDesignPatterns.Assignment2.Run.Start();
