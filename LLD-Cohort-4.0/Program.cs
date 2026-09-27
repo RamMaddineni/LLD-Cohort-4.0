@@ -64,3 +64,6 @@ LLD_Cohort_4._0.DesignPatterns.BehaviouralDesignPatterns.ObserverDesignPattern.R
 
 // Assignment 2: Structural Design Patterns
 LLD_Cohort_4._0.DesignPatterns.StructuralDesignPatterns.Assignment2.Run.Start();
+
+//Chain of Responsibility Pattern
+LLD_Cohort_4._0.DesignPatterns.BehaviouralDesignPatterns.ChainOfResponsibilityDesignPattern.Run.Start();
