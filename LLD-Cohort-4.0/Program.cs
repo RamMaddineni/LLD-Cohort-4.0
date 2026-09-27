@@ -67,3 +67,28 @@ LLD_Cohort_4._0.DesignPatterns.StructuralDesignPatterns.Assignment2.Run.Start();
 
 //Chain of Responsibility Pattern
 LLD_Cohort_4._0.DesignPatterns.BehaviouralDesignPatterns.ChainOfResponsibilityDesignPattern.Run.Start();
+
+
+
+
+
+
+
+
+//Concurrency
+LLD_Cohort_4._0.Concurrency.Run.Start();
+
+/*// Cook
+LLD_Cohort_4._0.Concurrency.Run.Cook();
+
+// Cook2
+LLD_Cohort_4._0.Concurrency.Run.Cook2();*/
+
+// counter variable updation
+LLD_Cohort_4._0.Concurrency.Run.CountFunc();
+
+//counter variable updating on threads fix with locks
+LLD_Cohort_4._0.Concurrency.Run.CountFuncFix();
+
+
+
