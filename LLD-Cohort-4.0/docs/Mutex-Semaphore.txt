@@ -1,0 +1,11 @@
+Mutex : Controls Exclusive Access for a single resource to one single thread.
+Sempahore : Controls the Number of Threads that can access single resource.
+
+More precise definition:
+Mutex : Allows only one thread at a time into a protected section to access a shared resource.
+Sempahore : Allows up to N Threads at a time into a protected section to access a resource pool.
+
+One key difference :
+A mutex must be released by the thread that acquired it.
+A semaphore has no such ownership requirment.
+this means a semaphore with N=1, is not identical to a mutex.
