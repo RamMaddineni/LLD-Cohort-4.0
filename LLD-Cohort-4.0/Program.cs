@@ -92,3 +92,12 @@ LLD_Cohort_4._0.Concurrency.Run.CountFuncFix();
 
 //Custom Thread pool
 LLD_Cohort_4._0.CustomThreadPool.Run.Start();
+
+// Custom Blocking Collection
+LLD_Cohort_4._0.CustomBlockingCollection.Run.Start();
+
+//PrinterServiceRunner with SemaphoreSlim
+LLD_Cohort_4._0.Semaphore.PrinterServiceRunner.Start();
+
+//PrinterService With No SemaphoreSlim
+LLD_Cohort_4._0.Semaphore.PrinterServiceWithNoSemaphoreRunner.Start();
